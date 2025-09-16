@@ -26,7 +26,7 @@ Inside the email, I find a list of suspicious artifacts gathered during system c
 
 ## Investigation Flow
 ### STEP 1: Download_Updated_Project_Files.eml
-Below is the ful report view Please.
+Below is the full report. Please see the report below.
 
 # Reprt 
 [Report](https://github.com/osehale/A-Day-in-the-Life-of-a-SOC-Analyst-IOC-Triage/blob/main/A%20Day%20in%20the%20Life%20of%20a%20SOC%20Analyst_%20IOC%20Triage.pdf) 
