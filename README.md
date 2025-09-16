@@ -17,5 +17,6 @@ Inside the email, I find a list of suspicious artifacts gathered during system c
 
 
 ## Tech Stack
--**Kali Linux**
+- **Kali Linux** – Investigation environment for IOC analysis
+- **VirusTotal** – Malware/file hash checks & reputation lookups 
 
