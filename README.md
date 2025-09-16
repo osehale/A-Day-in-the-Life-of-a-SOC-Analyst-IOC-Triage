@@ -26,3 +26,5 @@ Inside the email, I find a list of suspicious artifacts gathered during system c
 
 ## Investigation Flow
 ### STEP 1: Download_Updated_Project_Files.eml
+Below is the ful report view Please.
+ 
