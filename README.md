@@ -7,11 +7,11 @@ During this investigation, multiple suspicious files and logs were analyzed. Sev
 
 ## "Possible IOC Samples. Please Review"
 Inside the email, I find a list of suspicious artifacts gathered during system checks:
-.  Download_Updated_Project_Files.eml
-.  PrimeSoft_auth.log
-.  PrimeSoft_firewall.log
-.  PrimeSoft_phishing.eml
-.  Reported_phish_nike.png
-.  Suspicious_email_shina.png
-.  Team_Building_Activity.eml
+### .  Download_Updated_Project_Files.eml
+### .  PrimeSoft_auth.log
+### .  PrimeSoft_firewall.log
+### .  PrimeSoft_phishing.eml
+### .  Reported_phish_nike.png
+### .  Suspicious_email_shina.png
+### .  Team_Building_Activity.eml
 
