@@ -26,6 +26,34 @@ Inside the email, I find a list of suspicious artifacts gathered during system c
 
 ## Investigation Flow
 ### STEP 1: Download_Updated_Project_Files.eml
+<img src= "SOC_Analyst_images/soc_day_01.png" width= "600">
+<img src= "SOC_Analyst_images/soc_day_02.png" width= "600">
+
+On opening the file, it was found to be a suspicious phishing email campaign with the following IOCs 
+
+
+Ip  =             209.85.216.41
+                   10.13.154.136
+
+Url  =                     htts://drive.google.com/uc?export=download&id=1bstuGMLer-fbJbcGG5JiqnlekTSKvq5y
+                         
+Sender  =      projectdpt@kanzalshamsprojectmgt.com
+
+Receiver  =   nikefury@company.com
+
+## Enrichment of IOCs
+Ip    209.85.216.41  Suspicious {Virustotal, Anyrun, Abuseipdb}
+<img src= "SOC_Analyst_images/soc_day_03.png" width= "600">
+<img src= "SOC_Analyst_images/soc_day_04.png" width= "600">
+
+Sender  =  projectdpt@kanzalshamsprojectmgt.com      
+This domain is different from the receiver domain; if coming from the same organization, it has to be the same domain.
+
+Receiver  =   nikefury@company.com
+
+Email address: Malicious (phishing campaign).
+
+
 Below is the full report. Please see the report below.
 
 # Reprt 
