@@ -51,7 +51,11 @@ This domain is different from the receiver domain; if coming from the same organ
 
 Receiver  =   nikefury@company.com
 
-Email address: Malicious (phishing campaign), True Positive
+Email address: Malicious (phishing campaign), True Positive.
+
+## Step 2: File Analysis [ PrimeSoft_phishing.eml]
+
+
 
 
 Below is the full report. Please see the report below.
