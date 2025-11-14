@@ -51,7 +51,7 @@ This domain is different from the receiver domain; if coming from the same organ
 
 Receiver  =   nikefury@company.com
 
-Email address: Malicious (phishing campaign).
+Email address: Malicious (phishing campaign), True Positive
 
 
 Below is the full report. Please see the report below.
