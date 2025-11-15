@@ -154,6 +154,52 @@ IP 45.155.205.233  was found in our database and has been reported 1612 times (A
  Ip  91.219.236.15  Country  Hungary/  was not found in most databases but is still suspicious, as one vendor has flagged it      as such (ArcSight threat intel.)
 These IPs are malicious and are used for brute-force attacks
 
+## Final Triage Report
+<img src= "SOC_Analyst_images/soc_day_024.png" width= "600">
+
+## Key Takeaway
+Effective IOC triage isn’t just about spotting bad actors—it’s about validating evidence, enriching with intelligence, and making fast, informed decisions.
+As cyber threats evolve, SOC analysts stand as the frontline, ensuring that noise is filtered out and real threats are acted upon swiftly.
+
+##Recommendations
+
+1. Strengthen Email Security
+
+Enforce robust email authentication protocols, including SPF, DKIM, and DMARC.
+
+Conduct regular phishing simulations and ongoing user awareness training to enhance vigilance.
+
+2. Harden Authentication Systems
+
+Implement multi-factor authentication (MFA) for all critical user accounts.
+
+Monitor authentication activity and proactively block repeated failed login attempts at the firewall or IDS.
+
+3. Enhance Threat Intelligence Integration
+
+Automate IOC enrichment using reputable threat-intelligence platforms such as VirusTotal, AbuseIPDB, Hybrid Analysis, and MXToolbox.
+
+Continuously refine and update SIEM correlation rules to improve detection accuracy.
+
+4. Strengthen Network Defense
+
+Block malicious IP addresses and domains identified during triage and investigations.
+
+Apply geo-blocking for high-risk regions when aligned with business requirements and operational needs.
+
+5. Improve Incident Response Playbooks
+
+Develop, document, and regularly test incident response playbooks for scenarios such as phishing, brute-force attempts, and impersonation attacks.
+
+Establish clear escalation procedures to ensure timely response and handling of confirmed threats.
+
+## Conclusion
+
+In summary, this IOC triage exercise highlighted how structured analysis, enrichment, and correlation can effectively convert raw security artifacts into actionable intelligence. The investigation confirmed several phishing emails, malicious domains, and multiple IP addresses associated with brute-force activity as genuine threats rather than false positives. By validating indicators through platforms such as VirusTotal and AbuseIPDB, and by correlating findings with authentication and firewall logs, we were able to accurately assess the immediate risks and prioritize appropriate mitigation measures.
+
+Looking ahead, implementing the recommended controls such as strengthened email authentication (SPF, DKIM, DMARC), multi-factor authentication, automated threat intelligence enrichment, targeted network blocking, and regularly tested incident response playbooks will significantly reduce the organization’s exposure and accelerate the detection-to-remediation lifecycle.
+
+Ultimately, ongoing triage efforts, combined with strong collaboration between the SOC, IT teams, and end users, will enhance organizational resilience against evolving phishing campaigns and intrusion attempts.
 
 
 
@@ -170,8 +216,7 @@ These IPs are malicious and are used for brute-force attacks
 
 
 
-Below is the full report. Please see the report below.
 
-# Reprt 
-[Report](https://github.com/osehale/A-Day-in-the-Life-of-a-SOC-Analyst-IOC-Triage/blob/main/A%20Day%20in%20the%20Life%20of%20a%20SOC%20Analyst_%20IOC%20Triage.pdf) 
- 
+
+
+
