@@ -54,6 +54,13 @@ Receiver  =   nikefury@company.com
 Email address: Malicious (phishing campaign), True Positive.
 
 ## Step 2: File Analysis [ PrimeSoft_phishing.eml]
+<img src= "SOC_Analyst_images/soc_day_05.png" width= "600">
+<img src= "SOC_Analyst_images/soc_day_06.png" width= "600">
+
+ microsoftsecure-alert.com This domain is linked to this IP 185.220.101.1
+ 
+Email address: Malicious (phishing campaign), True Positive
+
 
 
 
