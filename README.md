@@ -61,6 +61,14 @@ Email address: Malicious (phishing campaign), True Positive.
  
 Email address: Malicious (phishing campaign), True Positive
 
+## Step3: File Analysis[Team_Building_Activity.eml]
+
+On opening the file, it was found to be a suspicious phishing email with the following IOCs.
+
+Ip   =    209.85.210.182
+
+Url  =    http://theannoyingsite.com
+
 
 
 
