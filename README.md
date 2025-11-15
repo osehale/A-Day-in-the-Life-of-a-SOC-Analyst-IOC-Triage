@@ -138,6 +138,21 @@ These IPs which have been extracted from the prime_auth.log, IOC, demonstrate co
 ## Step5: File Analysis[PrimeSoft_firewall.log]
 
   A long list of IPs were blocked by the firewall, most of them were blocked multiple times within the 48 hours
+  <img src= "SOC_Analyst_images/soc_day_022.png" width= "600">
+
+  ## Enrichment  of  IOCs
+
+ IP 103.152.220.58       country  Hong Kong, Domain Name is interstellarbd.net, suspicious
+ IP 89.248.168.122      1/94 security vendor flagged this IP address as malicious(Virus Total)
+ Country  Netherlands
+ IP 77.247.110.51          1/94 security vendor flagged this IP address as malicious(Virus Total)
+ It was first reported on June 17th, 2021, and the most recent report was 3 years ago
+IP 77.247.110.51     was found in our database. This IP was reported 199 times (AbuseIPDB)
+ Ip 45.155.205.233
+IP 45.155.205.233  was found in our database and has been reported 1612 times (AbuseIPDB) Country  Russian Federation, 19/94 security vendors flagged this IP address as malicious(Virus Total)
+ Ip  91.219.236.15  Country  Hungary/  was not found in most databases but is still suspicious, as one vendor has flagged it      as such (ArcSight threat intel.)
+These IPs are malicious and are used for brute-force attacks
+
 
 
 
