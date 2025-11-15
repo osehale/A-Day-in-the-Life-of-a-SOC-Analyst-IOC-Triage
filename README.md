@@ -1,4 +1,5 @@
 # A Day in the Life of a SOC Analyst, IOC Triage
+## Date 09/16/2025
 Recently, I received multiple suspicious files and logs from a coworker for triage. After analysis, several artifacts were confirmed as malicious including phishing campaigns, brute-force IPs, and domains linked to fraudulent activity
 
 ## Executive Summary
@@ -94,6 +95,52 @@ A separate IP identified in the investigation, 209.85.210.182, has also been cla
 Email: Malicious (phishing campaign), True Positive.
 
 ## Step4: File Analysis[PrimeSoft_auth.log]
+<img src= "SOC_Analyst_images/soc_day_011.png" width= "600">
+
+A long list of IPs was seen trying to intrude on the system with Failed password within the 48 hours.
+<img src= "SOC_Analyst_images/soc_day_012.png" width= "600">
+
+30 unique ip had Failed pasword.
+
+<img src= "SOC_Analyst_images/soc_day_013.png" width= "600">.
+
+
+30 unique ip had Connection closed.
+
+<img src= "SOC_Analyst_images/soc_day_014.png" width= "600">. 
+
+
+30 unique ip had Disconnected
+
+<img src= "SOC_Analyst_images/soc_day_015.png" width= "600">
+
+
+<img src= "SOC_Analyst_images/soc_day_016.png" width= "600">
+
+5 unique ip had Accepted pasword
+## Enrichment of  IOCs
+These IPs with accepted passwords are all internal IPs and were all involved in brute force and port scanning activities
+
+<img src= "SOC_Analyst_images/soc_day_017.png" width= "600">
+ 
+<img src= "SOC_Analyst_images/soc_day_018.png" width= "600">
+
+The following IP addresses have been identified as malicious and associated with brute-force attack activity:
+
+64.113.32.26 — Flagged as malware-related and malicious by VirusTotal, AbuseIPDB, and Hybrid Analysis.
+
+77.247.110.51 — Netherlands-based IP, reported as malicious by VirusTotal and AbuseIPDB.
+
+5.188.206.130 — Bulgaria-based IP, classified as malicious and linked to brute-force attempts according to VirusTotal and AbuseIPDB.
+
+These IPs which have been extracted from the prime_auth.log, IOC, demonstrate consistent malicious behavior across multiple threat-intelligence sources.
+
+## Step5: File Analysis[PrimeSoft_firewall.log]
+
+  A long list of IPs were blocked by the firewall, most of them were blocked multiple times within the 48 hours
+
+
+
 
 
 
