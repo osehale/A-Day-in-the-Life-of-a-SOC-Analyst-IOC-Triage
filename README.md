@@ -67,7 +67,36 @@ On opening the file, it was found to be a suspicious phishing email with the fol
 
 Ip   =    209.85.210.182
 
-Url  =    http://theannoyingsite.com
+Url  =    http://theannoyingsite.com.
+
+<img src= "SOC_Analyst_images/soc_day_08.png" width= "600">
+
+## Enrichment of IOCs
+Url =  http://theannoyingsite.com phishing and malicious, True Positive
+
+<img src= "SOC_Analyst_images/soc_day_07.png" width= "600">
+<img src= "SOC_Analyst_images/soc_day_09.png" width= "600">
+
+Url =  http://theannoyingsite.com  malicious
+
+Domain and IP Reputation Analysis
+
+The domain theannoyingsite.com, created approximately seven years ago, has been flagged by 10 out of 94 security vendors as malicious.
+MITRE ATT&CK™ mapping identified 44 indicators, associated with 24 attack techniques across 8 tactics, indicating a broad malicious footprint.
+
+Further analysis showed that the domain is linked to the IP address 50.116.11.184, which has a High-Risk reputation. Recent activity suggests this IP has been involved in fraudulent or abusive behaviour, as confirmed by IPQS threat intelligence. Based on these findings, the site should be considered unsafe, and users are strongly advised not to access it.
+
+Additionally, the sender and receiver domains in the email do not match, despite the message appearing to come from a teammate this is a common phishing red flag.
+
+A separate IP identified in the investigation, 209.85.210.182, has also been classified as malicious, and this alert is assessed as a True Positive.
+
+<img src= "SOC_Analyst_images/soc_day_010.png" width= "600">
+Email: Malicious (phishing campaign), True Positive.
+
+## Step4: File Analysis[PrimeSoft_auth.log]
+
+
+
 
 
 
